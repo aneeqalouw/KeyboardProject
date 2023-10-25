@@ -6,28 +6,52 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*.container{
-    position: static;
-    top: 0;
-}
-.rightrow1{
-    position: relative;
-    top: 0;
-    left: 30%;
-}*/
+/* positioning the containers */
 .container{
-    display: grid;
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    background-color: black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .rightcontainer{
     position: absolute;
-    top: 0;
-    left: 30%;
+    bottom: 30px;
+    left: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
 }
-.rightrow1{
-    display: flex;
-    align-self: auto;
-}
+
+
+/* button width */
 .row2 button{
     width: 23.5px;
 }
+.row3 button{
+    width: 23.5px;
+}
+.row4 button{
+    width: 23.5px;
+}
+.row5 button{
+    width: 23.5px;
+}
+.row6 button{
+    width: 23.5px;
+}
+.tabbtn button{
+    width: 50px;
+}
 
+
+/* special buttons width */
+.tabbtn button{
+    width: 30px;
+}
+.numlock button {
+    width: 10px;
+
+}
