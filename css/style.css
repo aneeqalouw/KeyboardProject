@@ -6,10 +6,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-.KBcontainer, .Topln, .ESC, .F {
+/*.container{
+    position: static;
+    top: 0;
+}
+.rightrow1{
+    position: relative;
+    top: 0;
+    left: 30%;
+}*/
+.container{
+    display: grid;
+}
+.rightcontainer{
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.rightrow1{
     display: flex;
+    align-self: auto;
 }
-.KBcontainer, .Topln, .ESC, .F{
-    /* justify-content: space-between; */
-    gap: 1rem;
+.row2 button{
+    width: 23.5px;
 }
+
