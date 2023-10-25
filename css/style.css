@@ -1,7 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 *,
 *::after,
 *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* positioning the containers */
+.container{
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    background-color: black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.rightcontainer{
+    position: absolute;
+    bottom: 30px;
+    left: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+/* button width */
+.row2 button{
+    width: 23.5px;
+}
+.row3 button{
+    width: 23.5px;
+}
+.row4 button{
+    width: 23.5px;
+}
+.row5 button{
+    width: 23.5px;
+}
+.row6 button{
+    width: 23.5px;
+}
+.tabbtn button{
+    width: 50px;
+}
+
+
+/* special buttons width */
+.tabbtn button{
+    width: 30px;
+}
+.numlock button {
+    width: 10px;
+
 }
